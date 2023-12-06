@@ -28,8 +28,9 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
-#loader{
+#loader h1{
     font-size:100px;
     font-weight:100;
     font-family:font2;
@@ -49,7 +50,6 @@ html,body{
     white-space: nowrap;
     font-stretch:260%;
     font-weight:999;
-    padding:0px 15px;
 }
 #page2{
     height:100vh;
