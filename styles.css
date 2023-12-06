@@ -1,0 +1,63 @@
+@font-face{
+    font-family:head;
+    src:url(/Heading-Now-Variable.ttf)
+}
+@font-face{
+    font-family: font2;
+    src: url(/MonumentExtended-Regular.otf);
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+html,body{
+    height:100%;
+    width:100%
+}
+
+#loader{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(149, 158, 185);
+    position:fixed;
+    z-index:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader{
+    font-size:100px;
+    font-weight:100;
+    font-family:font2;
+}
+
+#page1{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    overflow:hidden;
+}
+#page1 h1{
+    font-size:40vw;
+    color:white;
+    text-transform:uppercase;
+    font-family:head;
+    white-space: nowrap;
+    font-stretch:260%;
+    font-weight:999;
+    padding:0px 15px;
+}
+#page2{
+    height:100vh;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+#page3{
+    height:100vh;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0);
+}
